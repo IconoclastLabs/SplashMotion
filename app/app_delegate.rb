@@ -4,7 +4,7 @@ class AppDelegate
     @window.rootViewController = RootController.alloc.init
     #Splash Screen
     # this next line is a little messy, but it gives the idea for handling iphone 5
-    image = (568 == UIScreen.mainScreen.bounds.size.height) ? ("Default-568h") : ("Default.png")
+    image = (568 == UIScreen.mainScreen.bounds.size.height) ? ("Default-568h") : ("Default")
     image_view = UIImageView.alloc.initWithImage(UIImage.imageNamed(image))
     @window.rootViewController.view.addSubview(image_view)
     @window.rootViewController.view.bringSubviewToFront(image_view)
