@@ -1,6 +1,11 @@
 class RootController < UIViewController
+  stylesheet :iphone
 
-  def viewDidLoad
+  layout :root do
+    @a = subview(UILabel, :label)
+  end  
+
+  def deletedRun 
     super
     view.backgroundColor = UIColor.lightGrayColor
     @label = UILabel.alloc.initWithFrame([[0,0],[320,480]])
