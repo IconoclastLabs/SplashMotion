@@ -1,40 +1,35 @@
 
 Teacup::Stylesheet.new(:iphone) do
-  label_color = UIColor.blueColor
+  back_color = UIColor.lightGrayColor
 
   style :hai,
     landscape: true
 
-  style UILabel,
-    textColor: label_color
+  style UIView,
+    backgroundColor: back_color
 
   style :label,
-    text: 'Hai!',
-    backgroundColor: UIColor.whiteColor,
-    top: 10,
-    left: 100,
-    width: 50,
-    height: 20,
+    text: 'App Stuff!',
+    backgroundColor: UIColor.clearColor,
+    numberOfLines: 0,
+    font: UIFont.boldSystemFontOfSize(40),
+    textColor: UIColor.whiteColor,
+    shadowColor: UIColor.blackColor,
+    textAlignment: UITextAlignmentCenter,
+    top: 0,
+    left: 0,
+    width: 320,
+    height: 480,
     layer: {
       transform: identity,
+      shadowRadius: 20,
+      shadowOpacity: 0.5,
+      masksToBounds: false
     },
     landscape_left: {
       layer: {
         transform: rotate(identity, pi/6, 0.3, 0.3, 0.3)
-      },
-      width: 75
-    }
-
-  style :footer,
-    text: 'brought to you by teacup',
-    backgroundColor: UIColor.lightGrayColor,
-    top: 440,
-    left: 120,
-    width: 200,
-    height: 20,
-    landscape: {
-      left: 280,
-      top: 280
+      }
     }
 
 end
