@@ -5,9 +5,4 @@ class RootController < UIViewController
     @a = subview(UILabel, :label)
   end  
 
-  def viewDidLoad 
-    super
-    #view.backgroundColor = UIColor.lightGrayColor
-  end
-
 end
