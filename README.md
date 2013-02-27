@@ -1,7 +1,6 @@
-# SplashMotion #
+# SplashMotion /Teacup Branch#
 
-This is a straightforward project to quickly and easily add a
-splashscreen to your app.  If you'd like to know more about how this app
+This is a straightforward project to quickly and easily add a splashscreen to your app, UTILIZING Teacup for a simple interface.  If you'd like to know more about how this app
 works or are interested in seeing it become a GEM, please visit
 [My Blog Post on
 this](http://iconoclastlabs.com/cms/blog/posts/iphone-splash-screen-with-rubymotion) 
