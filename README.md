@@ -5,6 +5,3 @@ splashscreen to your app.  If you'd like to know more about how this app
 works or are interested in seeing it become a GEM, please visit
 [My Blog Post on
 this](http://iconoclastlabs.com/cms/blog/posts/iphone-splash-screen-with-rubymotion) 
-
-![SplashMotion Example](http://iconoclastlabs.com/system/images/W1siZiIsIjIwMTIvMDkvMDUvMjEvNTkvMjYvOTAyL1NwbGFzaFNjcmVlbi5wbmciXV0/SplashScreen.png
-"SplashMotion")
