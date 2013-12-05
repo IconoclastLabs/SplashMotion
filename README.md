@@ -1,4 +1,5 @@
 # SplashMotion #
+[![Crusher.io Optimization Badge](http://crusher.io/repo/iconoclastlabs/splashmotion/badge)](http://crusher.io/repo/iconoclastlabs/splashmotion)
 
 This is a straightforward project to quickly and easily add a
 splashscreen to your app.  If you'd like to know more about how this app
